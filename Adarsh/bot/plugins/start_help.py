@@ -25,13 +25,13 @@ async def start(b, m):
     usr_cmd = m.text.split("_")[-1]
     if usr_cmd == "/start":
         await m.reply_photo(
-            photo="https://telegra.ph/file/dd9f512f20297ee827a9a.jpg",
+            photo="https://telegra.ph/file/62e1af11def24c6cf54a7.jpg",
             caption="**ʜᴇʟʟᴏ...⚡\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛsɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀᴢ...**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/club_updates_97"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/ProleechgroupbyProffesor")],
-                    [InlineKeyboardButton("🍁OWNER", url="https://t.me/PROFE07XH"), InlineKeyboardButton("💠 DEVELOPER", url="https://t.me/PROFE07XH")],
-                    [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://youtube.com/@violencegaming7662")]
+                    [InlineKeyboardButton("📯 ᴜᴘᴅᴀᴛᴇs 📯", url="https://t.me/Filmy_Men"), InlineKeyboardButton("🌺 sᴜᴘᴘᴏʀᴛ 🌺 ", url="https://t.me/+ZPM_oNPciKZjYWQ1")],
+                    [InlineKeyboardButton("💞 ᴏᴡɴᴇʀ 💞", url="https://t.me/Fm_Onr"), InlineKeyboardButton("✨ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✨", url="https://t.me/Syrus_143_hpy")],
+                    [InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇs 🎥", url="https://t.me/+dl92lpP3oFExZTBl")]
                 ]
             ),
             
@@ -65,7 +65,7 @@ async def start(b, m):
         await m.reply_text(            
             text=msg_text.format(file_name, file_size, stream_link),
             
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚡ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ⚡", url=stream_link)]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✨ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ✨", url=stream_link)]])
         )
 
 
@@ -85,9 +85,12 @@ async def help_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/club_updates_97"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/ProleechgroupbyProffesor")],
-                    [InlineKeyboardButton("🍁OWNER", url="https://t.me/PROFE07XH"), InlineKeyboardButton("💠 DEVELOPER", url="https://t.me/PROFE07XH")],
-                    [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://youtube.com/@violencegaming7662")]
+                    [InlineKeyboardButton("📯 ᴜᴘᴅᴀᴛᴇs 📯", url="https://t.me/Filmy_Men"), InlineKeyboardButton("🌺 sᴜᴘᴘᴏʀᴛ 🌺 ", url="https://t.me/+ZPM_oNPciKZjYWQ1")],
+
+                    [InlineKeyboardButton("💞 ᴏᴡɴᴇʀ 💞", url="https://t.me/Fm_Onr"), InlineKeyboardButton("✨ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✨", url="https://t.me/Syrus_143_hpy")],
+
+                    [InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇs 🎥", url="https://t.me/+dl92lpP3oFExZTBl")]
+
                 ]
             ),
             
