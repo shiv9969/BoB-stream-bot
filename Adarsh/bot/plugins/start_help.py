@@ -61,7 +61,7 @@ async def start(b, m):
                                      Var.PORT,
                                      get_msg.id)
 
-        msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...⚡\n\n📧 ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n💌 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n♻️ ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ ♻️\n\n<b>❖ YouTube.com/@violencegaming7662</b>**"
+        msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...⚡\n\n📧 ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n💌 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n♻️ ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ ♻️\n\n<b>☣️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- @Fm_Onr</b>**"
         await m.reply_text(            
             text=msg_text.format(file_name, file_size, stream_link),
             
@@ -69,7 +69,7 @@ async def start(b, m):
         )
 
 
-@StreamBot.on_message(filters.command('help') & filters.private)
+@StreamBot.on_message(filters.command('fmhelp') & filters.private)
 async def help_handler(bot, message):
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.id)
@@ -79,16 +79,14 @@ async def help_handler(bot, message):
         )
               
     await message.reply_photo(
-            photo="https://telegra.ph/file/dd9f512f20297ee827a9a.jpg",
+            photo="https://telegra.ph/file/62e1af11def24c6cf54a7.jpg",
             caption="**┣⪼ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛʜᴇɴ ɪ ᴡɪʟʟ ʏᴏᴜ ᴘᴇʀᴍᴀɴᴇɴᴛ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴏғ ɪᴛ...\n\n┣⪼ ᴛʜɪs ʟɪɴᴋ ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴏʀ ᴛᴏ sᴛʀᴇᴀᴍ ᴜsɪɴɢ ᴇxᴛᴇʀɴᴀʟ ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀs ᴛʜʀᴏᴜɢʜ ᴍʏ sᴇʀᴠᴇʀs.\n\n┣⪼ ғᴏʀ sᴛʀᴇᴀᴍɪɴɢ ᴊᴜsᴛ ᴄᴏᴘʏ ᴛʜᴇ ʟɪɴᴋ ᴀɴᴅ ᴘᴀsᴛᴇ ɪᴛ ɪɴ ʏᴏᴜʀ ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀ ᴛᴏ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ.\n\n┣⪼ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟsᴏ sᴜᴘᴘᴏʀᴛ ɪɴ ᴄʜᴀɴɴᴇʟ. ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ʀᴇᴀʟᴛɪᴍᴇ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ғᴏʀ ᴇᴠᴇʀʏ ғɪʟᴇs/ᴠɪᴅᴇᴏs ᴘᴏsʏ../\n\n┣⪼ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ :- /about\n\n\nᴘʟᴇᴀsᴇ sʜᴀʀᴇ ᴀɴᴅ sᴜʙsᴄʀɪʙᴇ**", 
   
         
         reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("📯 ᴜᴘᴅᴀᴛᴇs 📯", url="https://t.me/Filmy_Men"), InlineKeyboardButton("🌺 sᴜᴘᴘᴏʀᴛ 🌺 ", url="https://t.me/+ZPM_oNPciKZjYWQ1")],
-
                     [InlineKeyboardButton("💞 ᴏᴡɴᴇʀ 💞", url="https://t.me/Fm_Onr"), InlineKeyboardButton("✨ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✨", url="https://t.me/Syrus_143_hpy")],
-
                     [InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇs 🎥", url="https://t.me/+dl92lpP3oFExZTBl")]
 
                 ]
@@ -96,7 +94,7 @@ async def help_handler(bot, message):
             
         )
 
-@StreamBot.on_message(filters.command('about') & filters.private)
+@StreamBot.on_message(filters.command('filmymen') & filters.private)
 async def about_handler(bot, message):
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.id)
@@ -105,27 +103,27 @@ async def about_handler(bot, message):
             f"#NEW_USER: \n\nNew User [{message.from_user.first_name}](tg://user?id={message.from_user.id}) Started !!"
         )
     await message.reply_photo(
-            photo="https://telegra.ph/file/0abad3d7c58a4d1ecd155.jpg",
+            photo="https://telegra.ph/file/62e1af11def24c6cf54a7.jpg",
             caption="""<b>sᴏᴍᴇ ʜɪᴅᴅᴇɴ ᴅᴇᴛᴀɪʟs😜</b>
 
 <b>╭━━━━━━━〔ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
 ┃
 ┣⪼<b>ʙᴏᴛ ɴᴀᴍᴇ : ғɪʟᴇ ᴛᴏ ʟɪɴᴋ
-┣⪼<b>ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/club_updates_97'>Updates</a></b>
-┣⪼<b>sᴜᴘᴘᴏʀᴛ : <a href='https://t.me/ProleechgroupbyProffesor'>support</a></b>
+┣⪼<b>ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/filmy_men'>ғɪʟᴍʏ ᴍᴇɴ</a></b>
+┣⪼<b>sᴜᴘᴘᴏʀᴛ : <a href='https://t.me/+ZPM_oNPciKZjYWQ1'>sᴜᴘᴘᴏʀᴛ</a></b>
 ┣⪼<b>sᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3</b>
-┣⪼<b>ʏᴏᴜᴛᴜʙᴇ : <a href='https://youtube.com/@violencegaming7662'>Just Fun</a></b>
+┣⪼<b>ʏᴏᴜᴛᴜʙᴇ : <a href='https://t.me/+dl92lpP3oFExZTBl'>ᴍᴏᴠɪᴇs</a></b>
 ┃
 <b>╰━━━━━━━〔ᴘʟᴇᴀsʀ sᴜᴘᴘᴏʀᴛ〕</b>""",
   
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/club_updates_97"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/ProleechgroupbyProffesor")],
-                    [InlineKeyboardButton("🍁OWNER", url="https://t.me/PROFE07XH"), InlineKeyboardButton("💠 DEVELOPER", url="https://t.me/PROFE07XH")],
-                    [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://youtube.com/@violencegaming7662")]
+                    [InlineKeyboardButton("📯 ᴜᴘᴅᴀᴛᴇs 📯", url="https://t.me/Filmy_Men"), InlineKeyboardButton("🌺 sᴜᴘᴘᴏʀᴛ 🌺 ", url="https://t.me/+ZPM_oNPciKZjYWQ1")],
+                    [InlineKeyboardButton("💞 ᴏᴡɴᴇʀ 💞", url="https://t.me/Fm_Onr"), InlineKeyboardButton("✨ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✨", url="https://t.me/Syrus_143_hpy")],
+                    [InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇs 🎥", url="https://t.me/+dl92lpP3oFExZTBl")]
                 ]
             ),
             
