@@ -43,7 +43,7 @@ async def private_receive_handler(c: Client, m: Message):
             text=msg_text.format(get_name(log_msg), humanbytes(get_media_file_size(m)), online_link, stream_link2),
             quote=True,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🖥 sᴛʀᴇᴀᴍ 🖥", url=stream_link2), #Stream Link
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🖥 sᴛʀᴇᴀᴍ 🖥", url=stream_link), #Stream Link
                                                 InlineKeyboardButton('📩 ᴅᴏᴡɴʟᴏᴀᴅ 📩', url=online_link)]]) #Download Link
         )
     except FloodWait as e:
@@ -61,7 +61,7 @@ async def channel_receive_handler(bot, broadcast):
     try:
         log_msg = await broadcast.forward(chat_id=Var.BIN_CHANNEL)
         stream_link = f"{Var.URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
-        stream_link2 = f"https://stream.url2go.in/st?api=af5e38dfaf8b900b45335173d279b44d7ae4b2e9&url={Var.URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
+        stream_link2 = f"{Var.URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
         online_link = f"{Var.URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
         await log_msg.reply_text(
             text=f"**Channel Name:** `{broadcast.chat.title}`\n**CHANNEL ID:** `{broadcast.chat.id}`\n**Rᴇǫᴜᴇsᴛ ᴜʀʟ:** {stream_link}",
@@ -72,7 +72,7 @@ async def channel_receive_handler(bot, broadcast):
             message_id=broadcast.id,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("🖥 sᴛʀᴇᴀᴍ 🖥", url=stream_link2),
+                    [InlineKeyboardButton("🖥 sᴛʀᴇᴀᴍ 🖥", url=stream_link),
                      InlineKeyboardButton('📩 ᴅᴏᴡɴʟᴏᴀᴅ 📩', url=online_link)] 
                 ]
             )
