@@ -31,7 +31,7 @@ async def start(b, m):
                 [
                     [InlineKeyboardButton("📯 ᴜᴘᴅᴀᴛᴇs 📯", url="https://t.me/Filmy_Men"), InlineKeyboardButton("🌺 sᴜᴘᴘᴏʀᴛ 🌺 ", url="https://t.me/+ZPM_oNPciKZjYWQ1")],
                     [InlineKeyboardButton("💞 ᴏᴡɴᴇʀ 💞", url="https://t.me/Fm_Onr"), InlineKeyboardButton("✨ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✨", url="https://t.me/Syrus_143_hpy")],
-                    [InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇs 🎥", url="https://t.me/+dl92lpP3oFExZTBl")]
+                    [InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇs 🎥", url="https://t.me/+3TcNxspmsQJhMzk9")]
                 ]
             ),
             
@@ -87,7 +87,7 @@ async def help_handler(bot, message):
                 [
                     [InlineKeyboardButton("📯 ᴜᴘᴅᴀᴛᴇs 📯", url="https://t.me/Filmy_Men"), InlineKeyboardButton("🌺 sᴜᴘᴘᴏʀᴛ 🌺 ", url="https://t.me/+ZPM_oNPciKZjYWQ1")],
                     [InlineKeyboardButton("💞 ᴏᴡɴᴇʀ 💞", url="https://t.me/Fm_Onr"), InlineKeyboardButton("✨ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✨", url="https://t.me/Syrus_143_hpy")],
-                    [InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇs 🎥", url="https://t.me/+dl92lpP3oFExZTBl")]
+                    [InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇs 🎥", url="https://t.me/+3TcNxspmsQJhMzk9")]
 
                 ]
             ),
@@ -114,7 +114,7 @@ async def about_handler(bot, message):
 ┣⪼<b>sᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3</b>
-┣⪼<b>ʏᴏᴜᴛᴜʙᴇ : <a href='https://t.me/+dl92lpP3oFExZTBl'>ᴍᴏᴠɪᴇs</a></b>
+┣⪼<b>ʏᴏᴜᴛᴜʙᴇ : <a href='https://t.me/+3TcNxspmsQJhMzk9'>ᴍᴏᴠɪᴇs</a></b>
 ┃
 <b>╰━━━━━━━〔ᴘʟᴇᴀsʀ sᴜᴘᴘᴏʀᴛ〕</b>""",
   
@@ -123,7 +123,7 @@ async def about_handler(bot, message):
                 [
                     [InlineKeyboardButton("📯 ᴜᴘᴅᴀᴛᴇs 📯", url="https://t.me/Filmy_Men"), InlineKeyboardButton("🌺 sᴜᴘᴘᴏʀᴛ 🌺 ", url="https://t.me/+ZPM_oNPciKZjYWQ1")],
                     [InlineKeyboardButton("💞 ᴏᴡɴᴇʀ 💞", url="https://t.me/Fm_Onr"), InlineKeyboardButton("✨ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✨", url="https://t.me/Syrus_143_hpy")],
-                    [InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇs 🎥", url="https://t.me/+dl92lpP3oFExZTBl")]
+                    [InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇs 🎥", url="https://t.me/+3TcNxspmsQJhMzk9")]
                 ]
             ),
             
