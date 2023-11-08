@@ -25,13 +25,13 @@ async def start(b, m):
     usr_cmd = m.text.split("_")[-1]
     if usr_cmd == "/start":
         await m.reply_photo(
-            photo="https://telegra.ph/file/851ad8108cf99df3ea11c.jpg",
+            photo="https://telegra.ph/file/408cb83e4758dc21af386.jpg",
             caption="**ʜᴇʟʟᴏ...⚡\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /fmhelp ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛsɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀᴢ...**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("📯 ᴜᴘᴅᴀᴛᴇs 📯", url="https://t.me/Filmy_Men"), InlineKeyboardButton("🌺 sᴜᴘᴘᴏʀᴛ 🌺 ", url="https://t.me/FmDiscusss")],
-                    [InlineKeyboardButton("💞 ᴏᴡɴᴇʀ 💞", url="https://t.me/Fm_Onr"), InlineKeyboardButton("✨ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✨", url="https://t.me/Syrus_143_hpy")],
-                    [InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇs 🎥", url="https://t.me/+3TcNxspmsQJhMzk9")]
+                    [InlineKeyboardButton("💞 ᴏᴡɴᴇʀ 💞", url="https://t.me/Syrus_143_hpy"), InlineKeyboardButton("✨ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✨", url="https://t.me/Syrus_143_hpy")],
+                    [InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇs 🎥", url="https://t.me/FILMY_MEN/54")]
                 ]
             ),
             
@@ -61,7 +61,7 @@ async def start(b, m):
                                      Var.PORT,
                                      get_msg.id)
 
-        msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...⚡\n\n📧 ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n💌 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n♻️ ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ ♻️\n\n<b>☣️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- @Fm_Onr</b>**"
+        msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...⚡\n\n📧 ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n💌 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n♻️ ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ ♻️\n\n<b>☣️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- @Filmy_Men</b>**"
         await m.reply_text(            
             text=msg_text.format(file_name, file_size, stream_link),
             
@@ -79,15 +79,15 @@ async def help_handler(bot, message):
         )
               
     await message.reply_photo(
-            photo="https://telegra.ph/file/851ad8108cf99df3ea11c.jpg",
+            photo="https://telegra.ph/file/408cb83e4758dc21af386.jpg",
             caption="**┣⪼ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛʜᴇɴ ɪ ᴡɪʟʟ ʏᴏᴜ ᴘᴇʀᴍᴀɴᴇɴᴛ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴏғ ɪᴛ...\n\n┣⪼ ᴛʜɪs ʟɪɴᴋ ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴏʀ ᴛᴏ sᴛʀᴇᴀᴍ ᴜsɪɴɢ ᴇxᴛᴇʀɴᴀʟ ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀs ᴛʜʀᴏᴜɢʜ ᴍʏ sᴇʀᴠᴇʀs.\n\n┣⪼ ғᴏʀ sᴛʀᴇᴀᴍɪɴɢ ᴊᴜsᴛ ᴄᴏᴘʏ ᴛʜᴇ ʟɪɴᴋ ᴀɴᴅ ᴘᴀsᴛᴇ ɪᴛ ɪɴ ʏᴏᴜʀ ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀ ᴛᴏ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ.\n\n┣⪼ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟsᴏ sᴜᴘᴘᴏʀᴛ ɪɴ ᴄʜᴀɴɴᴇʟ. ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ʀᴇᴀʟᴛɪᴍᴇ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ғᴏʀ ᴇᴠᴇʀʏ ғɪʟᴇs/ᴠɪᴅᴇᴏs ᴘᴏsʏ../\n\n┣⪼ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ :- /filmymen\n\n\nᴘʟᴇᴀsᴇ sʜᴀʀᴇ ᴀɴᴅ sᴜʙsᴄʀɪʙᴇ**", 
   
         
         reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("📯 ᴜᴘᴅᴀᴛᴇs 📯", url="https://t.me/Filmy_Men"), InlineKeyboardButton("🌺 sᴜᴘᴘᴏʀᴛ 🌺 ", url="https://t.me/FmDiscusss")],
-                    [InlineKeyboardButton("💞 ᴏᴡɴᴇʀ 💞", url="https://t.me/Fm_Onr"), InlineKeyboardButton("✨ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✨", url="https://t.me/Syrus_143_hpy")],
-                    [InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇs 🎥", url="https://t.me/+3TcNxspmsQJhMzk9")]
+                    [InlineKeyboardButton("💞 ᴏᴡɴᴇʀ 💞", url="https://t.me/syrus_143_hpy"), InlineKeyboardButton("✨ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✨", url="https://t.me/Syrus_143_hpy")],
+                    [InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇs 🎥", url="https://t.me/FILMY_MEN/54")]
 
                 ]
             ),
